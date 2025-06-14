@@ -12,11 +12,6 @@
 
   <header>
     <h1>MyPortfolio</h1>
-    <div class="menu-toggle" onclick="toggleMenu()">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
     <nav class="navbar">
       <ul class="nav-links">
         <li><a href="#home" class="nav-link">Home</a></li>
@@ -260,11 +255,7 @@
   </footer>
 
   <script>
-    function toggleMenu() {
-      const menu = document.getElementById('nav-menu');
-      menu.classList.toggle('active');
-    }
-    const sections = document.querySelectorAll("section");
+  const sections = document.querySelectorAll("section");
   const navLinks = document.querySelectorAll(".nav-link");
 
   window.addEventListener("scroll", () => {
