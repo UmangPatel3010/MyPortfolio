@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="Index.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>MyPortfolio</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+
+  <section class="home" id="home">
+    <h2>Hello, I'm Umang Pansuriya</h2>
+    <p>Application Developer | Problem Solver | Coder </p>
+    <p class="tagline">Building Solutions. Learning Fast. Adapting Faster.</p>
+  </section>
+
+  <section class="about" id="about">
+    <h3 class="section-title">About Me</h3>
+
+    <div class="about-bio">
+      <div class="bio-card">
+        <p class="bio-tagline">Innovating through Code, Crafting with Curiosity.</p>
+        <p class="bio-desc">
+          Passionate about crafting impactful solutions, quickly adapting to new technologies, and solving real-world challenges across diverse tech stacks. I thrive in collaborative environments and believe in continuous learning to stay ahead in an ever-evolving industry.
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="about-education">
+      <h4>Education</h4>
+      <div class="education-grid">
+        <div class="education-item">
+          <h5>B. Tech - Computer Science Engineering</h5>
+          <p><strong>Name:</strong> Darshan University</p>
+          <p><strong>Years:</strong> 2023 – Pursuing</p>
+          <p><strong>CGPA:</strong> 9.49</p>
+        </div>
+
+        <div class="education-item">
+          <h5>Diploma - Computer Engineering</h5>
+          <p><strong>Name:</strong> A.V. Parekh Technical Institute</p>
+          <p><strong>Years:</strong> 2020 – 2023</p>
+          <p><strong>CGPA:</strong> 9.77</p>
+        </div>
+
+        <div class="education-item">
+          <h5>Schooling</h5>
+          <p><strong>Name:</strong> P.V. Modi School, Rajkot</p>
+          <p><strong>SSC:</strong> 78%</p>
+        </div>
+
+        <!-- <div class="education-item">
+            <h5>Certification</h5>
+            <p><strong>Name:</strong> Full Stack Web Development</p>
+            <p><strong>Year:</strong> 2023</p>
+            <p><strong>Platform:</strong> Udemy</p>
+          </div> -->
+      </div>
+    </div>
+
+
+
+    <div class="about-interests">
+      <h4>Interests</h4>
+      <div class="interests-grid">
+        <!-- <div class="interest-card">
+          <span>🌐</span>
+          <p>Web Designing</p>
+        </div> -->
+        <div class="interest-card">
+          <span>⚙️</span>
+          <p>Competitive Programming</p>
+        </div>
+        <div class="interest-card">
+          <span>🚀</span>
+          <p>Learning New Tech</p>
+        </div>
+        <div class="interest-card">
+          <span>🧠</span>
+          <p>Problem Solving</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="skills" id="skills">
+    <h3 class="section-title">Skills</h3>
+
+    <div class="skills-category">
+      <h4>Technical Skills</h4>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React JS</li>
+        <li>Node JS</li>
+        <li>Express JS</li>
+        <li>Data Structure</li>
+        <li>.Net Core</li>
+        <li>Python</li>
+        <li>Flutter</li>
+        <li>Firebase</li>
+        <li>SQL</li>
+      </ul>
+    </div>
+
+    <div class="skills-category">
+      <h4>Soft Skills</h4>
+      <ul class="skills-list">
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Adaptability</li>
+        <li>Time Management</li>
+        <li>Critical Thinking</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <h3 class="section-title">Projects</h3>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h4>Virtual Wear</h4>
+        <p>An innovative AR-based application that lets users virtually try on outfits using real-time camera input.
+          Built for Android using TensorFlow for object tracking and Firebase for authentication and data storage. Helps
+          in online shopping with better accuracy and user experience.</p>
+        <div class="tech-stack">
+          <span>Android</span>
+          <span>TensorFlow</span>
+          <span>Firebase</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/UmangPatel3010/Virtual-Wear" target="_blank">GitHub</a>
+
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h4>Waste Classification</h4>
+        <p>This project uses a trained machine learning model to automatically classify waste as Organic or Recycle. The
+          front-end is built with Streamlit for an interactive web interface. Ideal for integration with smart bins and
+          environmental monitoring systems.</p>
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>Scikit-learn</span>
+          <span>Streamlit</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/UmangPatel3010/Waste-Classification/tree/main" target="_blank">GitHub</a>
+          <a href="https://waste-classification-mlproject.streamlit.app/" target="_blank">Live</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h4>Face & Eye Blink Detection</h4>
+        <p>Real-time drowsiness detection system using computer vision. Detects eye blinks and facial landmarks using
+          MediaPipe and OpenCV. Can be used in driver fatigue alert systems or hands-free human-computer interaction
+          scenarios.</p>
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>MediaPipe</span>
+          <span>OpenCV</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/UmangPatel3010/Face-Eye-Blink-Detection" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h3 class="section-title">Contact Me</h3>
+    <div class="contact-container">
+
+      <div class="contact-info">
+        <h4 class="contact-info-heading">Let's Connect</h4>
+        <div class="info-item">
+          <img class="icon-img" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg"
+            alt="LinkedIn Icon">
+          <a href="https://www.linkedin.com/in/umang-patel-2330sij2606/" target="_blank">
+            Connect on LinkedIn
+          </a>
+        </div>
+
+        <div class="info-item">
+          <img class="icon-img" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub Icon">
+          <a href="https://github.com/UmangPatel3010" target="_blank">
+            Explore My GitHub Projects
+          </a>
+        </div>
+
+        <div class="info-item">
+          <img class="icon-img" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/gmail.svg" alt="Email Icon">
+          <a href="mailto:23010101635@Darshan.ac.in">
+            Drop Me an Email
+          </a>
+        </div>
+
+
+        <div class="connect-blurb">
+          <p>I’m always open to new opportunities, collaborations, or a friendly chat about tech, design, or innovation.
+            🚀</p>
+        </div>
+      </div>
+
+
+      <div class="contact-form">
+        <h4 class="form-heading">Feel free to reach out — I'd love to connect with you!</h4>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="contact-footer">
+      <h4>Let's Connect Beyond Code</h4>
+      <p>Whether it's about tech, design, or random ideas — I'm all ears!</p>
+      <p>👋 Say hello, ask a question, or just drop a friendly ping.</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2025 MyPortfolio | Designed by Umang Pansuriya</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('nav-menu');
+      menu.classList.toggle('active');
+    }
+    const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    const scrollY = window.pageYOffset;
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 155;
+      const sectionHeight = section.offsetHeight;
+
+      if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+
+  </script>
+</body>
+
+</html>
