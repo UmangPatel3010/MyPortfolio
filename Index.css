@@ -574,8 +574,7 @@
 .project-card,
 .skills-list li,
 .info-item,
-.contact-form,
-.contact-card,
+.MycontactForm,
 .connect-blurb,
 .contact-footer {
   animation: fadeIn 1s ease-in-out both;
