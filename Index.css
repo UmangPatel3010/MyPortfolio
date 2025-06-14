@@ -114,7 +114,18 @@
     animation: fadeIn 1s ease-in-out;
     margin-bottom: 1rem;
   }
-  
+
+.education-item,
+.interest-card,
+.project-card,
+.skills-list li,
+.info-item,
+.contact-form,
+.contact-card,
+.connect-blurb,
+.contact-footer {
+  animation: fadeIn 1s ease-in-out both;
+}
   .bio-tagline {
     font-size: 1.1rem;
     font-weight: 600;
